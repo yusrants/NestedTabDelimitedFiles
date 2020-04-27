@@ -272,7 +272,7 @@ namespace SchoolReportSystem
                                         exam1.course = course_id;
                                         exams.Add(exam1);
                                         //Moving to the next entry:
-                                        if (i < 52)
+                                        if (i < (lines.count - rows))
                                         {
                                             i = i + (rows + 1);
                                             no_exams = 0;
