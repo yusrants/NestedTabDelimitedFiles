@@ -1,0 +1,57 @@
+Teachers:
+	1:
+		StaffID: 501
+		Name: Atif Aslam
+		Qualitifactions: [ Bachelors in Arts, Masters in Arts, Masters in Education and Teaching ]
+	2:
+		StaffID: 502
+		Name: Kashif Maqbool
+		Qualifications: [ Bachelors in Law, Bachelors in Accounting ]
+	3:
+		StaffID: 503
+		Name: Jameel Hussain
+		Qualifications:[ Bachelors in Finance ]
+
+Courses:
+	1:
+		ID: BA101
+		Title: Art and History
+		TotalMarks: 75
+	2:
+		ID: LLB101
+		Title: Origins of Law and Order
+		TotalMarks: 100
+	3:
+		ID: CA101
+		Title: Financial Accounting
+		TotalMarks: 100
+
+Students:
+	1:
+		StudentID: 101
+		Name: Atif Khan
+		ExamResults:
+			1: 
+				Course: /Courses/1
+				Instructors: [/Teachers/1]
+				Marks: 60
+			2: 
+				Course: /Courses/2
+				Instructors: [/Teachers/2]
+				Marks: 40
+			3: 
+				Course: /Courses/3
+				Instructors: [/Teachers/2, /Teachers/1]
+				Marks: 40
+	2:
+		StudentID: 111
+		Name: Hassan Akhtar
+		ExamResults:
+			1: 
+				Course: /Courses/1
+				Instructors: [/Teachers/1]
+				Marks: 50
+			2: 
+				Course: /Courses/2
+				Instructors: [/Teachers/2]
+				Marks: 50
